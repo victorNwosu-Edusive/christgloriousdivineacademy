@@ -16,7 +16,7 @@ function About() {
 
          {/*The About content section*/}
          <section className="p-9 md:p-28 lg:p-28 items-center justify-center">
-            <img src={logo} alt="" className='h-36 w-auto opacity-20 mb-4 m-auto'/>
+            <img src={logo} alt="" className='h-36 w-auto opacity-20 mb-4 m-auto' loading='lazy' />
             <h1 className='font-bold text-xl text-center  md:text-3xl lg:text-3xl mb-5'>- Christ Glorious Divine Academy -</h1>
             <p className='md:text-[18px] lg:text-[18px]'> Christ Glorious Divine Academy was established in 2024 with the goal of providing a high-quality 
                 education that emphasizes both academic excellence and character development. Situated in the heart of Benin City, the school was founded to create an environment where students can learn, grow, and achieve their fullest potential. <br /><br />
@@ -26,12 +26,12 @@ function About() {
             
         <section className='grid grid-cols-2'>
          <div className="p-9 pt-20 pb-20 md:p-28 lg:p-28 bg-blue-950 items-center justify-center">
-            <h1 className='font-bold text-3xl text-white  md:text-3xl lg:text-3xl mb-3'>Our Vision</h1>
+            <h1 className='text-3xl text-white  md:text-3xl lg:text-3xl mb-3'>Our Vision</h1>
             <p className='text-white md:text-[18px] lg:text-[18px]'> Empowering every students or pupils to reach their full potential and to become lifelong learners...</p>
          </div>
 
          <div className="p-9 pt-20 pb-20 md:p-28 lg:p-28 bg-blue-900 items-center justify-center">
-            <h1 className='font-bold text-3xl text-white  md:text-3xl lg:text-3xl mb-3'>Our Mission</h1>
+            <h1 className='text-3xl text-white  md:text-3xl lg:text-3xl mb-3'>Our Mission</h1>
             <p className='text-white md:text-[18px] lg:text-[18px]'> Our Mission is preparing every students or pupils to reach the highest pinnacle of success.</p>
          </div>
          </section>

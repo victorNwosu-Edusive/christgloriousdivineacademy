@@ -20,9 +20,9 @@ function Gallery() {
         {/*The Gallery section*/}
         <section className="p-9 md:p-28 lg:p-28 items-center justify-center">
             <div className='flex flex-col md:flex-row lg:flex-row gap-4 items-center justify-center'>
-            <img src={imageOne} alt="" className='w-72 h-72 rounded-xl object-cover'/>
-            <img src={imageTwo} alt="" className='w-72 h-72 rounded-xl object-cover' />
-            <img src={imageThree} alt="" className='w-72 h-72 rounded-xl object-cover'/>
+            <img src={imageOne} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
+            <img src={imageTwo} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
+            <img src={imageThree} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
             </div>
         </section>
         </main>
