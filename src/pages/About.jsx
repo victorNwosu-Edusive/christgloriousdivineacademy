@@ -25,14 +25,14 @@ function About() {
          </section>
             
         <section className='grid grid-cols-2'>
-         <div className="p-9 pt-20 pb-20 md:p-28 lg:p-28 bg-blue-950 items-center justify-center">
+         <div className="p-4 pt-20 pb-20 md:p-28 lg:p-28 bg-blue-950 items-center justify-center">
             <h1 className='text-3xl text-white  md:text-3xl lg:text-3xl mb-3'>Our Vision</h1>
-            <p className='text-white md:text-[18px] lg:text-[18px]'> Empowering every students or pupils to reach their full potential and to become lifelong learners...</p>
+            <p className='text-white text-sm md:text-[18px] lg:text-[18px]'> Empowering every students or pupils to reach their full potential and to become lifelong learners...</p>
          </div>
 
-         <div className="p-9 pt-20 pb-20 md:p-28 lg:p-28 bg-blue-900 items-center justify-center">
+         <div className="p-4 pt-20 pb-20 md:p-28 lg:p-28 bg-blue-900 items-center justify-center">
             <h1 className='text-3xl text-white  md:text-3xl lg:text-3xl mb-3'>Our Mission</h1>
-            <p className='text-white md:text-[18px] lg:text-[18px]'> Our Mission is preparing every students or pupils to reach the highest pinnacle of success.</p>
+            <p className='text-white text-sm md:text-[18px] lg:text-[18px]'> Our Mission is preparing every students or pupils to reach the highest pinnacle of success.</p>
          </div>
          </section>
 
