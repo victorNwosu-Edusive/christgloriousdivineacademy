@@ -2,6 +2,12 @@ import ScrollToTop from '../components/scrolltotop';
 import imageOne from '../assets/images/gallery-image-one.jpg'
 import imageTwo from '../assets/images/gallery-image-two.jpg'
 import imageThree from '../assets/images/gallery-image-three.jpg'
+import imageFive from '../assets/images/gallery-image-five.jpg'
+import imageSix from '../assets/images/gallery-image-six.jpg'
+import imageSeven from '../assets/images/gallery-image-seven.jpg'
+import imageEight from '../assets/images/gallery-image-eight.jpg'
+import imageNine from '../assets/images/gallery-image-nine.jpg'
+import imageTen from '../assets/images/gallery-image-ten.jpg'
 
 function Gallery() {
     
@@ -19,10 +25,16 @@ function Gallery() {
 
         {/*The Gallery section*/}
         <section className="p-9 md:p-28 lg:p-28 items-center justify-center">
-            <div className='flex flex-col md:flex-row lg:flex-row gap-4 items-center justify-center'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 items-center justify-center'>
             <img src={imageOne} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
             <img src={imageTwo} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
             <img src={imageThree} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
+            <img src={imageFive} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
+            <img src={imageSix} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
+            <img src={imageSeven} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
+            <img src={imageEight} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
+            <img src={imageNine} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
+            <img src={imageTen} alt="" className='w-72 h-72 rounded-xl object-cover' loading='lazy'/>
             </div>
         </section>
         </main>
